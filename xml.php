@@ -1,0 +1,23 @@
+<?php
+header('content-type: text/xml');
+echo '<?xml version="1.0" encoding="UTF-8"?>';
+echo '<bookstore>';
+echo    '<book category="cooking">';
+echo        '<title lang="en">Everyday Italian</title>';
+echo        '<author>Giada De Laurentiis</author>';
+echo        '<year>2005</year>';
+echo        '<price>30.00</price>';
+echo    '</book>';
+echo    '<book category="children">';
+echo        '<title lang="en">Harry Potter</title>';
+echo        '<author>J K. Rowling</author>';
+echo        '<year>2005</year>';
+echo        '<price>29.99</price>';
+echo    '</book>';
+echo    '<book category="web">';
+echo        '<title lang="en">Learning XML</title>';
+echo        '<author>Erik T. Ray</author>';
+echo        '<year>2003</year>';
+echo        '<price>39.95</price>';
+echo    '</book>';
+echo '</bookstore>';
